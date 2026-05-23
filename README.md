@@ -4,8 +4,7 @@
 基于华为隐私中心导出的个人穿戴设备数据，对睡眠，运动，心率进行分析，探索睡眠及其与运动之间的关系。
 
 ## 数据来源
-由华为手环记录并保存到华为运动健康APP，
-再从华为隐私中心申请个人数据，导出JSON格式原始数据，包含心率、睡眠、运动等记录。
+由华为手环记录并保存到华为运动健康APP，再从华为隐私中心申请个人数据，导出JSON格式原始数据，包含心率、睡眠、运动等覆盖约300天的记录。
 
 ## 分析流程
 1. `01_json_to_csv.ipynb`  
@@ -20,8 +19,25 @@
    
 5. `TABLEAU/`  
 — 交互式可视化面板，点击下方链接查看。  
-- [个人心率极值曲线](https://public.tableau.com/views/_17791975306010/sheet2?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true  )
-- [睡眠状态比例饼图](https://public.tableau.com/views/_17791969763920/sheet1?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)
+  
+
+- [个人心率极值曲线](https://public.tableau.com/views/_17791975306010/sheet2?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
+  
+
+![alt text](<屏幕截图 2026-05-23 150449.png>)  
+  
+
+- [睡眠状态比例饼图](https://public.tableau.com/views/_17795222181400/1?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
+  
+
+![alt text](<屏幕截图 2026-05-23 154524.png>)  
+  
+
+- [午睡与睡眠效率关系图](https://public.tableau.com/views/_17792850698100/1?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
+  
+
+![alt text](<屏幕截图 2026-05-23 150642.png>)
+
 
 
 ## 结论
