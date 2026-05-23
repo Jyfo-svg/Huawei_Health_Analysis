@@ -24,19 +24,19 @@
 - [个人心率极值曲线](https://public.tableau.com/views/_17791975306010/sheet2?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
   
 
-![alt text](<屏幕截图 2026-05-23 150449.png>)  
+![alt text](heart_rate_extreme_curve.png)
   
 
 - [睡眠状态比例饼图](https://public.tableau.com/views/_17795222181400/1?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
   
 
-![alt text](<屏幕截图 2026-05-23 154524.png>)  
+![alt text](sleep_stage_distribution_pie_chart.png)  
   
 
 - [午睡与睡眠效率关系图](https://public.tableau.com/views/_17792850698100/1?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
   
 
-![alt text](<屏幕截图 2026-05-23 150642.png>)
+![alt text](nap_duration_vs_next_night_sleep_efficiency.png)
 
 
 
