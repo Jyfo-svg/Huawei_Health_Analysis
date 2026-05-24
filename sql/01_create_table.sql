@@ -19,8 +19,8 @@ CREATE TABLE health_daily_summary_cleaned(
     总时长 INTEGER,
     每公里消耗 REAL,
     平均心率 REAL,
-    最大心率 INTEGER,
     最小心率 INTEGER,
+    最大心率 INTEGER,
     记录条数 INTEGER
  
  );   
