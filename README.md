@@ -36,14 +36,22 @@
 - [午睡与睡眠效率关系图](https://public.tableau.com/views/_17792850698100/1?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
   
 
-![alt text](images/nap_duration_vs_next_night_sleep_efficiency.png)
+![alt text](images/nap_duration_vs_next_night_sleep_efficiency.png)  
+    
+
+  - [活动量与睡眠质量指标关系图](https://public.tableau.com/views/_17797222622070/2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
+    
+
+![alt text](images/activity_vs_sleep_quality_metrics.png)
+
 
 
 
 ## 结论
 1. 午睡过长几乎不会影响当晚的睡眠效率。  
-2. 长有氧能缩短当晚的清醒时长。  
-3. 夜间睡眠时间相对缩短，第二天午睡可能性增加。
+2. 夜间睡眠时间相对缩短，第二天午睡可能性增加。
+3. 高活动量可以显著提升睡眠质量。
+
 
 
 ## 技术栈
