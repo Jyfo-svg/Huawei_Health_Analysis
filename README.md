@@ -8,7 +8,7 @@
 
 ## 分析流程  
 
-`PYTHON/`   
+`PYTHON/`  
 1. `01_json_to_csv.ipynb`  
 — 原始JSON转换为CSV：获取健康相关字段并按日期汇总。
 2. `02_data_cleaning.ipynb`  
@@ -20,11 +20,11 @@
 - `01_create_table.sql`：建表语句。
 - `02_import.sql`：导入清洗后的CSV数据。
   
-`TABLEAU/`   
+`TABLEAU/`  
 — 交互式可视化面板，点击下方链接查看。  
   
 
-- [个人心率极值曲线](https://public.tableau.com/views/_17791975306010/sheet2?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
+- [心率极值分布折线图](https://public.tableau.com/views/_17791975306010/sheet2?:language=zh-CN&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
   
 
 ![alt text](images/heart_rate_extreme_curve.png)
@@ -42,7 +42,7 @@
 ![alt text](images/nap_duration_vs_next_night_sleep_efficiency.png)  
     
 
- - [活动量与睡眠质量指标关系图](https://public.tableau.com/views/_17797222622070/2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
+ - [活动量与睡眠质量指标组合图](https://public.tableau.com/views/_17797222622070/2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
     
 
 ![alt text](images/activity_vs_sleep_quality_metrics.png)
