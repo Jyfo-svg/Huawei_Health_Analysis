@@ -58,8 +58,8 @@
 
 
 ## 技术栈
-- Python（Pandas、Numpy）
-- MySQL + Navicat
+- Python
+- MySQL
 - Tableau Public
 - Jupyter Notebook
 
