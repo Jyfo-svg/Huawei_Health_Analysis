@@ -8,7 +8,7 @@
 
 ## 分析流程  
 
-`Python/´  
+`PYTHON/`   
 1. `01_json_to_csv.ipynb`  
 — 原始JSON转换为CSV：获取健康相关字段并按日期汇总。
 2. `02_data_cleaning.ipynb`  
@@ -17,8 +17,8 @@
 — 对清洗后的CSV文件进行数据探索，相关性分析，结论输出等。  
 
 `SQL/`  
-   - `01_create_table.sql`：建表语句。
-   - `02_import.sql`：导入清洗后的CSV数据。
+- `01_create_table.sql`：建表语句。
+- `02_import.sql`：导入清洗后的CSV数据。
   
 `TABLEAU/`   
 — 交互式可视化面板，点击下方链接查看。  
