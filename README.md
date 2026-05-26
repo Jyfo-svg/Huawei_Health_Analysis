@@ -6,18 +6,21 @@
 ## 数据来源
 由华为手环记录并保存到华为运动健康APP，再从华为隐私中心申请个人数据，导出JSON格式原始数据，包含心率、睡眠、运动等覆盖约300天的记录。
 
-## 分析流程
+## 分析流程  
+
+`Python/´  
 1. `01_json_to_csv.ipynb`  
 — 原始JSON转换为CSV：获取健康相关字段并按日期汇总。
 2. `02_data_cleaning.ipynb`  
 — 对CSV文件数据清洗：填充缺失值，处理异常值等。
 3. `03_deep_analysis.ipynb`  
-— 对清洗后的CSV文件进行数据探索，相关性分析，结论输出等。
-4. `SQL/`  
+— 对清洗后的CSV文件进行数据探索，相关性分析，结论输出等。  
+
+`SQL/`  
    - `01_create_table.sql`：建表语句。
    - `02_import.sql`：导入清洗后的CSV数据。
-   
-5. `TABLEAU/`  
+  
+`TABLEAU/`   
 — 交互式可视化面板，点击下方链接查看。  
   
 
@@ -39,7 +42,7 @@
 ![alt text](images/nap_duration_vs_next_night_sleep_efficiency.png)  
     
 
-  - [活动量与睡眠质量指标关系图](https://public.tableau.com/views/_17797222622070/2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
+ - [活动量与睡眠质量指标关系图](https://public.tableau.com/views/_17797222622070/2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true)  
     
 
 ![alt text](images/activity_vs_sleep_quality_metrics.png)
